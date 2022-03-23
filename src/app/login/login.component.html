@@ -1,5 +1,10 @@
 <p>login works!</p>
 <button (click)="login()">Login</button>
 <div *ngIf="token">
- a {{claims | json}} b
+  {{claims | json}}
+</div>
+
+<div>
+  <button (click)="test1()">Test1</button>
+  <button (click)="test2()">Test2</button>
 </div>
